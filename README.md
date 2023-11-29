@@ -30,6 +30,10 @@
 
 ## 네트워크
 - ISP(인터넷 접속 서비스를 제공하는 업체)와 공유기
+- OSI 7 layer & TCP/IP 4layer
+- L4 단위:세그먼트 [tcp Header](https://itwiki.kr/w/TCP)
+- L3 단위:패킷 [ip데이터그램](https://itwiki.kr/w/IP_%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B7%B8%EB%9E%A8)
+- L2 단위:프레임
 - 침입탐지시스템 (IDS)(Intrusion Detection System)-이상징후경고,방화벽과의 연동 방어를 통해 차단 가능함(독립적 차단 제한적)
   - HIDS : Host based IDS
     - 특정 호스트시스템에서 수집된 감사자료를 분석하고 비정상 행위를 탐지
@@ -306,4 +310,4 @@
 ## 참조
 - webgoat
   - [도움](https://hackingisly.tistory.com/152)
-- [실습2](../../../securecode2013)
+- [실습](https://github.com/eurekasolution/securecode)
